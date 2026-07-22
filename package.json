@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:india-testing": "playwright test tests/india-testing.spec.ts --project=chromium"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
